@@ -1,0 +1,27 @@
+.Projects {
+    position: relative;
+    top:80vh;
+
+    p{
+        padding: 5px;
+    }
+
+    br{
+        user-select: none;
+    }
+    
+    .title {
+        font-family: $font_style;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .subtitle{
+        font-family: $font_style;
+        font-weight: 100;
+        font-size:20px;
+        text-align: center;
+    }
+
+}

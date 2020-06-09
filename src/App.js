@@ -5,6 +5,7 @@ import './public/css/main.scss'
 import Navbar from './components/Navbar'
 import Welcome from './components/Welcome'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 //Material UI
 import { Container } from '@material-ui/core'
@@ -14,6 +15,7 @@ const App = () => {
         <Fragment>
             <Welcome />
             <Skills />
+            <Projects />
         </Fragment>
     );
 }

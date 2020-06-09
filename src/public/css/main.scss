@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;700&display=swap');
 
 *{
     margin: 0;
@@ -16,3 +16,4 @@ $font_style: 'Raleway', sans-serif;
 @import 'partials/scroll';
 @import 'partials/welcome';
 @import 'partials/skills';
+@import 'partials/projects';
