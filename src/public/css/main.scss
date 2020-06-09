@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f0f5;
+}
+
+$title-color: #141c3a;
+$container-color: #23286B;
+$font_style: 'Raleway', sans-serif;
+
+@import 'partials/scroll';
+@import 'partials/welcome';
+@import 'partials/skills';
