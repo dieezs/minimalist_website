@@ -16,7 +16,7 @@ const Experience = () => (
                 <Grid item lg={12} align="left" className="itemGrid">
                     <span className="timeAndCompany">IT COMMERCE | CURRENT</span>
                     <p className="role">Junior Analyst</p>
-                    <p>Project: Enterprise Architecture at Arcos Dorados</p>
+                    <p className="titleRole">Project: Enterprise Architecture at Arcos Dorados</p>
                     <ul>
                         <li>Modeling of high and low level diagrams</li>
                         <li>Documentation of system integrations (SOAP, REST, JSON, HTTP, ESB, TIBCO);</li>
