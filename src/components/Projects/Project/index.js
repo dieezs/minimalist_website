@@ -9,15 +9,17 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 500,
+        maxWidth: 550,
     },
     media: {
         height: 140,
     },
 });
 
-export default function MediaCard({title, description, github, fly, image}) {
+export default function MediaCard({ title, description, github, fly, image }) {
     const classes = useStyles();
+
+    const renderProjectOnFly = fly ? <Button size="small" color="primary" className="colorButton">Project on fly</Button> : null;
 
     return (
         <Card className={classes.root}>
@@ -28,13 +30,13 @@ export default function MediaCard({title, description, github, fly, image}) {
                 title="Contemplative Reptile"
             />
             <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">{title}</Typography>
-                <Typography variant="body2" color="textSecondary" component="p">{description}</Typography>
+                <Typography gutterBottom variant="h5" component="h2" className="titleProject">{title}</Typography>
+                <Typography variant="body2" color="textSecondary" className="textProject" component="p">{description}</Typography>
             </CardContent>
 
             <CardActions>
-                <Button size="small" color="primary">Github</Button>
-                <Button size="small" color="primary">Project on fly</Button>
+                <Button size="small" href="https://github.com/dieezs/Juba-sBarbearia" target="_blank" color="primary" className="colorButton">Github</Button>
+                {renderProjectOnFly}
             </CardActions>
         </Card>
     );

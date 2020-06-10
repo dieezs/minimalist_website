@@ -4,7 +4,7 @@ import { Paper, Grid } from '@material-ui/core'
 
 const PaperSkill = ({ hability, icon, content_paper, paperclass, briefText, skills, textSkills, tools, textTools }) => {
 
-    const toolToBeRendered = textTools.map(tool => (<li  className="textSubtitle2">{tool}</li>))
+    const toolToBeRendered = textTools.map(tool => (<li key={tool} className="textSubtitle2">{tool}</li>))
 
     return (
         <Grid item lg={4} align="center">

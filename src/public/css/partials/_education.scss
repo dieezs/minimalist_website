@@ -1,0 +1,35 @@
+.Education {
+    position: relative;
+    top: 90vh;
+    background-color: $container-color;
+    color: white;
+    height: 400px;
+
+    br{
+        user-select: none;
+    }
+    .title {
+        @include title;
+    }
+
+    .subtitle {
+        @include subtitle;
+    }
+
+    .nameCourse{
+        font-family: $font_style;
+        font-weight:700;
+        font-size: 22px;
+    }
+
+    .type{
+        font-family: $font_style;
+        font-weight: 200;
+    }
+
+    .date{
+        font-family: $font_style;
+        font-weight: 200;
+
+    }
+}

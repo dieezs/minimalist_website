@@ -1,19 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;700&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #f0f0f5;
 }
 
 $title-color: #141c3a;
-$container-color: #23286B;
-$font_style: 'Raleway', sans-serif;
+$container-color: #23286b;
+$font_style: "Raleway", sans-serif;
 
-@import 'partials/scroll';
-@import 'partials/welcome';
-@import 'partials/skills';
-@import 'partials/projects';
+@mixin title {
+    font-family: $font_style;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@mixin subtitle {
+    font-family: $font_style;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+}
+
+@import "partials/scroll";
+@import "partials/welcome";
+@import "partials/skills";
+@import "partials/projects";
+@import "partials/article";
+@import "partials/education";
+@import "partials/experience";
+@import "partials/footer";
