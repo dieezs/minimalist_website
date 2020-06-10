@@ -8,7 +8,7 @@ const Experience = () => (
     <div className="Experience">
         <br /><br /><br />
         <p className="title">Experience</p>
-        <p className="subtitle">My Experience on IT business</p>
+        <p className="subtitle">My experience on IT business</p>
         <br /><br />
         <Container maxWidth="lg">
             <Grid container spacing={3} align="center">
