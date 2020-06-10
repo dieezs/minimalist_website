@@ -10,4 +10,24 @@
         @include subtitle;
     }
 
+    .itemGrid{
+
+        .timeAndCompany{
+            font-family: $font_style;
+            font-weight: 200;
+        }
+
+        .role{
+            font-family: $font_style;
+            color: $title-color;
+            font-size:27px
+        }
+
+        li{
+            font-family: $font_style;
+            font-weight: 300;
+            list-style: none;
+            width: 50%;
+        }
+    }
 }
