@@ -31,7 +31,8 @@ const Skills = () => {
 
                 <div className="content-text">
                     <p className="title">Hi! I'm Diego Magalhães de Souza</p>
-                    <p className="text">text text text text text text text text text text text text </p>
+                    <p className="text">I'm very happy that you are here on my website! Welcome!</p>
+                    <p className="text">I ❤ act with Frontend, that is my passion. I enjoy to learning new things and help others people to come to this world of programming!</p>
                 </div>
 
                 <div className="content-box">
@@ -41,7 +42,7 @@ const Skills = () => {
                             paperclass="paper-class"
                             icon={<Frontend size={50} className="iconSkill" />}
                             hability="Frontend"
-                            briefText="some text some text some text"
+                            briefText="what users see"
                             skills="Skills"
                             textSkills="HTML, CSS, Javascript, ReactJS"
 
@@ -53,7 +54,7 @@ const Skills = () => {
                             paperclass="paper-class"
                             icon={<Backend size={50} className="iconSkill" />}
                             hability="Backend"
-                            briefText="some text some text some text"
+                            briefText="what users don't see"
                             skills="Skills"
                             textSkills="NodeJS, MVC, Express, Javascript"
 
@@ -65,7 +66,7 @@ const Skills = () => {
                             paperclass="paper-class"
                             icon={<Other size={50} className="iconSkill" />}
                             hability="Other Skills"
-                            briefText="some text some text some text"
+                            briefText="what users think are strange"
                             skills="Skills"
                             textSkills="JIRA, Cloud Computing, Agile"
 

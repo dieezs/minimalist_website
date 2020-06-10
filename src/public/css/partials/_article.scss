@@ -14,17 +14,28 @@
     }
 
     .publication {
-        
-        
         .titleArticle {
             font-family: $font_style;
-            font-weight: 500;
-            font-size: 30px;
+            font-weight: bold;
+            font-size: 28px;
         }
 
-        .tag{
-            margin:5px
+        .tag {
+            margin: 5px;
+            transition: all 0.3s ease 0s;
+            user-select: none;
+            &:hover {
+                transform: translateY(-7px);
+            }
         }
 
+        .button {
+            color: $container_color;
+            transition: all 0.3s ease 0s;
+            margin-top: 10px;
+            &:hover {
+                transform: translateY(-7px);
+            }
+        }
     }
 }

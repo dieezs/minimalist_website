@@ -50,10 +50,16 @@
                     font-size:20px;
                     
                 }
-
+                
                 .textSubtitle2{
                     list-style: none;
                     padding: 5px;
+                }
+                
+                .subtitle, .subtitle2{
+                    color: $container-color;
+                    font-weight: 500;
+                    font-size:20px
                 }
 
                 p{

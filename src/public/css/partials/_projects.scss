@@ -24,6 +24,17 @@
 
     .colorButton{
         color: $container_color;
+        transition: all 0.3s ease 0s;
+
+        &:hover{
+            transform: translateY(-7px);
+
+        }
+    }
+
+    .textProject{
+        font-weight: 300;
+        font-size:17px;
     }
 
 }

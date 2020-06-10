@@ -1,0 +1,19 @@
+.Footer {
+    position: relative;
+    top: 90vh;
+    background-color: $container-color;
+    color: white;
+    height: 200px;
+    a {
+        text-decoration: none;
+    }
+
+    .icon {
+        color: white;
+        padding: 10px;
+        transition: all 0.3s ease 0s;
+        &:hover {
+            transform: translateY(-7px);
+        }
+    }
+}

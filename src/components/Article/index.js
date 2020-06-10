@@ -26,8 +26,7 @@ const Article = () => {
                     <Chip key={tag} label={tag} variant="outlined" className="tag" />
                 ))}
                 <br/>
-                <br/>
-                <Button href="#text-buttons" color="primary" href={publication.link} target="_blank" variant="outlined" >go to article</Button>
+                <Button href="#text-buttons" color="primary" href={publication.link} target="_blank" variant="outlined" className="button" >go to article</Button>
             </div>
         </Grid>
     ))
@@ -37,7 +36,7 @@ const Article = () => {
         <div className="Article">
             <p className="title">Articles</p>
             <p className="subtitle">Some of my articles, write by me and published on Medium</p>
-            <br />
+            <br /><br />
             <Container maxWidth="lg">
                 <Grid container spacing={4}>
                     {publicationsToBeRendered}

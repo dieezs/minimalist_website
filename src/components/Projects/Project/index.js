@@ -31,11 +31,11 @@ export default function MediaCard({ title, description, github, fly, image }) {
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="h2" className="titleProject">{title}</Typography>
-                <Typography variant="body2" color="textSecondary" className="textProject" component="p">{description}</Typography>
+                <p className="textProject">{description}</p>
             </CardContent>
 
             <CardActions>
-                <Button size="small" href="https://github.com/dieezs/Juba-sBarbearia" target="_blank" color="primary" className="colorButton">Github</Button>
+                <Button variant="outlined" size="small" href="https://github.com/dieezs/Juba-sBarbearia" target="_blank" color="primary" className="colorButton">Github</Button>
                 {renderProjectOnFly}
             </CardActions>
         </Card>

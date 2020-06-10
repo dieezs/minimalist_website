@@ -17,7 +17,7 @@ const Projects = () => (
     <div className="Projects">
         <p className="title">Projects</p>
         <p className="subtitle">Some of my projects, to study purposes, customers or business.</p>
-        <br/>
+        <br/><br/>
         <Container maxWidth="lg">
             <Grid container spacing={3} align="center">
                 <Grid item lg={6}>
