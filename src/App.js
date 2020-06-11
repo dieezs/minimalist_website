@@ -19,8 +19,8 @@ const App = () => {
         <Fragment>
             <Welcome />
             <Skills />
-            <Projects />
-            <Article />
+            {/* <Projects /> */}
+            {/* <Article /> */}
             <Education />
             <Experience />
             <Footer />

@@ -36,41 +36,98 @@
             .content-paper {
                 @include getSpace(80px);
 
-                .title{
+                .title {
                     font-family: $font_style;
                     font-size: 30px;
                     font-weight: 700;
                     color: $container-color;
-
                 }
 
-                .text, .textSubtitle, .textSubtitle2{
+                .text,
+                .textSubtitle,
+                .textSubtitle2 {
                     font-family: $font_style;
                     font-weight: 200;
-                    font-size:20px;
-                    
+                    font-size: 20px;
                 }
-                
-                .textSubtitle2{
+
+                .textSubtitle2 {
                     list-style: none;
                     padding: 5px;
                 }
-                
-                .subtitle, .subtitle2{
+
+                .subtitle,
+                .subtitle2 {
                     font-family: $font_style;
                     color: $container-color;
                     font-weight: 500;
-                    font-size:20px
+                    font-size: 20px;
                 }
 
-                p{
+                p {
                     padding: 8px;
                 }
 
-                br{
+                br {
                     user-select: none;
                 }
+            }
+        }
 
+        .mobile {
+            font-family: $font_style;
+
+            display: flex;
+            flex-direction: column;
+
+            .icon {
+                align-self: flex-start;
+                padding: 12px 0 0 25px;
+            }
+
+            .title {
+                font-size: 30px;
+                font-weight: 700;
+                color: $container-color;
+                margin-top: -50px;
+                margin-left: -80px;
+            }
+
+            .subtitle {
+                align-self: flex-start;
+                margin-left: 20px;
+                color: $container-color;
+                font-weight: 500;
+                font-size: 20px;
+            }
+
+            .subtitle2 {
+                color: $container-color;
+                font-weight: 500;
+                font-size: 20px;
+                margin-top:-10px;
+            }
+
+            .textSubtitle {
+                font-weight: 200;
+                font-size: 20px;
+                margin-top: -20px;
+            }
+
+            .itemMobile{
+                margin-top: 20px;;
+            }
+        }
+
+        @media (max-width: 960px) {
+            .paper-class {
+                width: 240px;
+            }
+        }
+
+        @media (max-width: 730px) {
+            .paper-class {
+                width: 200px;
             }
         }
     }
