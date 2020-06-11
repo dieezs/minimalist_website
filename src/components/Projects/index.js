@@ -20,7 +20,7 @@ const Projects = () => (
         <br/><br/>
         <Container maxWidth="lg">
             <Grid container spacing={3} align="center">
-                <Grid item lg={6}>
+                <Grid item lg={6} md={12} sm={12} >
                     <Project
                         title="Jubas Barbershop"
                         description="Project designed by me, to a client and friend.
@@ -32,7 +32,7 @@ const Projects = () => (
 
                     />
                 </Grid>
-                <Grid item lg={6}>
+                <Grid item lg={6} md={12} sm={12}>
                     <Project
                         title="API Management"
                         description="To learning and consume some API calls, i made this little project with React and Material UI just for fun. APIs consumed: Spotify, Weather, Twitter and Github. "
@@ -42,7 +42,7 @@ const Projects = () => (
 
                     />
                 </Grid>
-                <Grid item lg={6}>
+                <Grid item lg={6} md={12} sm={12}>
                     <Project
                         title="Helpdesk Knowledge Base"
                         description="Since the support area where I worked was lacking a knowledge base,
