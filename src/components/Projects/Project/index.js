@@ -35,7 +35,7 @@ export default function MediaCard({ title, description, github, fly, image }) {
             </CardContent>
 
             <CardActions>
-                <Button variant="outlined" size="small" href="https://github.com/dieezs/Juba-sBarbearia" target="_blank" color="primary" className="colorButton">Github</Button>
+                <Button variant="outlined" size="small" href={github} target="_blank" color="primary" className="colorButton">Github</Button>
                 {renderProjectOnFly}
             </CardActions>
         </Card>
