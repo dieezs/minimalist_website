@@ -24,7 +24,7 @@ const Experience = () => (
                         <li>Management of the Corporate Architecture tool called Qualiware;</li>
                     </ul>
                     <br/>
-                    <p>Project: Support at Prevent Senior | 11 months</p>
+                    <p className="titleRole">Project: Support at Prevent Senior | 11 months</p>
                     <ul>
                         <li>1st in the weekly and monthly top of call attendance in the Helpdesk;</li>
                         <li>Development of a knowledge base for the Helpdesk</li>
