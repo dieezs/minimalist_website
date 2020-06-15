@@ -14,7 +14,7 @@ import { BsFillAwardFill as Other } from 'react-icons/bs'
 const Skills = () => {
 
     const toolsFrontend = [
-        'VSCode', 'SASS', 'MaterializeCSS', 'Material UI', 'styled-components', 'styled-icons', 'react-icons', 'Github', 'Git', 'Typescript', 'Ux Design'
+        'SASS', 'MaterializeCSS', 'Material UI', 'styled-components', 'styled-icons', 'react-icons', 'Github', 'Git', 'Typescript', 'Ux Design'
     ];
 
     const toolsBackend = [
