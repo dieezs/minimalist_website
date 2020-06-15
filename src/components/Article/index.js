@@ -16,8 +16,6 @@ const Article = () => {
             })
     }, [])
 
-    console.log({ publications })
-
     const publicationsToBeRendered = publications.map(publication => (
         <Grid item lg={12} align="center">
             <div className="publication">
