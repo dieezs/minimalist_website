@@ -4,8 +4,17 @@ import { Paper, Grid, Hidden } from '@material-ui/core'
 
 const PaperSkill = ({ hability, icon, content_paper, paperclass, briefText, skills, textSkills, tools, textTools }) => {
 
+    //pega o ultimo item do array
+    const lastItem = [...textTools].pop();
     const toolToBeRendered = textTools.map(tool => (<li key={tool} className="textSubtitle2">{tool}</li>))
-    const toolToBeRenderedMobile = textTools.map(item => `  ${item}, `)
+    const toolToBeRenderedMobile = textTools.map(item => {
+        if (lastItem == item) {
+            return item;
+        }else{
+            return `${item}, `;
+        }
+    })
+
 
     return (
         <Fragment>
