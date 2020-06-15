@@ -34,7 +34,7 @@ const PaperSkill = ({ hability, icon, content_paper, paperclass, briefText, skil
                         <p className="title">{hability}</p>
                         <p className="textSubtitle">{textSkills}</p>
                         <p className="subtitle2">{tools}</p>
-                        {toolToBeRenderedMobile}
+                        <p className="skillsMobile">{toolToBeRenderedMobile}</p>
                     </Paper>
                 </Grid>
             </Hidden>

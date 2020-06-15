@@ -105,7 +105,7 @@
                 color: $container-color;
                 font-weight: 500;
                 font-size: 20px;
-                margin-top:-10px;
+                margin-top: -10px;
             }
 
             .textSubtitle {
@@ -114,8 +114,13 @@
                 margin-top: -20px;
             }
 
-            .itemMobile{
-                margin-top: 20px;;
+            .itemMobile {
+                margin-top: 20px;
+            }
+
+            .skillsMobile {
+                font-family: $font_style;
+                font-weight: 200;
             }
         }
 
