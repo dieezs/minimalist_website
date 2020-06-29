@@ -8,7 +8,7 @@ const PaperSkill = ({ hability, icon, content_paper, paperclass, briefText, skil
     const lastItem = [...textTools].pop();
     const toolToBeRendered = textTools.map(tool => (<li key={tool} className="textSubtitle2">{tool}</li>))
     const toolToBeRenderedMobile = textTools.map(item => {
-        if (lastItem == item) {
+        if (lastItem === item) {
             return item;
         }else{
             return `${item}, `;

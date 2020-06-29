@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import '../../public/css/main.scss'
 
 import Image from '../../assets/clip-programming.png'

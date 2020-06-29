@@ -2,7 +2,7 @@ import React from 'react';
 import '../../public/css/main.scss'
 
 //Material UI
-import { Grid, Container } from '@material-ui/core'
+import { Container } from '@material-ui/core'
 
 const Education = () => (
     <div className="Education">

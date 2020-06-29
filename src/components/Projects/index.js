@@ -27,7 +27,7 @@ const Projects = () => (
                         Institutional website of a barber shop. Project made in ReactJS and NodeJS.
                         Still in development, with only a few texts and photos missing"
                         github="https://github.com/dieezs/Juba-sBarbearia"
-                        fly=""
+                        fly="https://jubasbarbearia-frontend.herokuapp.com/"
                         image={ImageJubas}
 
                     />

@@ -19,7 +19,7 @@ const useStyles = makeStyles({
 export default function MediaCard({ title, description, github, fly, image }) {
     const classes = useStyles();
 
-    const renderProjectOnFly = fly ? <Button size="small" color="primary" className="colorButton">Project on fly</Button> : null;
+    const renderProjectOnFly = fly ? <Button size="small" color="primary" className="colorButton" target="_blank" href={fly}>Project on fly</Button> : null;
 
     return (
         <Card className={classes.root}>
